@@ -1,145 +1,19 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Para a Martinha ❤️</title>
+# 🎂 Feliz Aniversário, Pamela!
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+Página de aniversário feita em HTML, CSS e JavaScript.
 
-body{
-    font-family: 'Segoe UI', sans-serif;
-    height:100vh;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden;
+## Como publicar no GitHub Pages
 
-    /* COLOQUE O NOME EXATO DA SUA IMAGEM AQUI */
-    background:
-    linear-gradient(rgba(255,192,203,.85), rgba(255,182,193,.85)),
-    url("HD-wallpaper-fc-sport-recife-emblem-brazilian-seria-a-grunge-soocer-brazil-sport-recife-football-club-brick-texture-sport-recife-fc-thumbnail.jpg");
+1. Crie um repositório no GitHub, por exemplo: `feliz-aniversario-pamela`
+2. Envie os três arquivos:
+   - `index.html`
+   - `style.css`
+   - `script.js`
+3. No repositório, vá em **Settings → Pages**
+4. Em **Build and deployment**, selecione:
+   - Source: **Deploy from a branch**
+   - Branch: **main** / **root**
+5. Salve e aguarde alguns instantes.
+6. O GitHub vai fornecer o endereço da página.
 
-    background-size:cover;
-    background-position:center;
-}
-
-.card{
-    width:90%;
-    max-width:800px;
-    background:rgba(255,255,255,0.88);
-    backdrop-filter:blur(8px);
-    border-radius:25px;
-    padding:40px;
-    text-align:center;
-    box-shadow:0 10px 40px rgba(0,0,0,.2);
-}
-
-h1{
-    color:#d63384;
-    font-size:3rem;
-    margin-bottom:20px;
-}
-
-p{
-    color:#444;
-    font-size:1.3rem;
-    line-height:1.8;
-}
-
-.assinatura{
-    margin-top:25px;
-    font-size:1.8rem;
-    font-weight:bold;
-    color:#d63384;
-}
-
-.hearts{
-    margin-top:30px;
-    font-size:3rem;
-    animation:pulse 1.5s infinite;
-}
-
-@keyframes pulse{
-    0%{
-        transform:scale(1);
-    }
-    50%{
-        transform:scale(1.2);
-    }
-    100%{
-        transform:scale(1);
-    }
-}
-
-/* corações flutuando */
-.heart{
-    position:absolute;
-    color:#ff4d88;
-    animation:float 10s linear infinite;
-    opacity:.7;
-}
-
-@keyframes float{
-    from{
-        transform:translateY(100vh);
-        opacity:0;
-    }
-    20%{
-        opacity:.7;
-    }
-    to{
-        transform:translateY(-120px);
-        opacity:0;
-    }
-}
-
-.heart:nth-child(1){left:10%;font-size:30px;animation-duration:9s;}
-.heart:nth-child(2){left:25%;font-size:25px;animation-duration:12s;}
-.heart:nth-child(3){left:40%;font-size:35px;animation-duration:10s;}
-.heart:nth-child(4){left:60%;font-size:28px;animation-duration:11s;}
-.heart:nth-child(5){left:75%;font-size:40px;animation-duration:13s;}
-.heart:nth-child(6){left:90%;font-size:32px;animation-duration:9s;}
-</style>
-</head>
-
-<body>
-
-<div class="heart">❤️</div>
-<div class="heart">❤️</div>
-<div class="heart">❤️</div>
-<div class="heart">❤️</div>
-<div class="heart">❤️</div>
-<div class="heart">❤️</div>
-
-<div class="card">
-    <h1>🌹 Para a Martinha 🌹</h1>
-
-    <p>
-        Querida Martinha,
-        <br><br>
-        Você é uma pessoa incrível, doce, amável e capaz de iluminar o dia de todos ao seu redor.
-        Sua bondade, seu carinho e seu jeito especial fazem diferença na vida de muita gente,
-        inclusive na minha.
-        <br><br>
-        Sou muito grato por todo o cuidado, atenção e preocupação que você tem comigo.
-        Pessoas como você são raras e merecem ser valorizadas todos os dias.
-        <br><br>
-        Obrigado por ser exatamente quem você é:
-        uma pessoa maravilhosa, de coração gigante e que espalha alegria por onde passa.
-    </p>
-
-    <div class="assinatura">
-        Te amo, Martinha ❤️
-    </div>
-
-    <div class="hearts">❤️ ❤️ ❤️</div>
-</div>
-
-</body>
-</html>
+Você pode enviar o link para a Pamela. 💙
